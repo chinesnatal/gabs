@@ -1,0 +1,84 @@
+Crie um site completo para o projeto **FaturaFácil**, um Mini SaaS que permite ao usuário gerar **propostas comerciais**, **faturas** e **recibos personalizados** de forma rápida, profissional e online. O sistema precisa ser leve, moderno e com foco em UX.
+
+---
+
+### 🎨 Design
+
+- Estilo clean e minimalista (tipo Notion, Linear, Stripe)
+- Fundo branco ou cinza claro (#F9F9F9)
+- Tipografia moderna (Inter ou Poppins)
+- Botões com cantos arredondados (border-radius: 12px)
+- Ícones simples (lucide, heroicons ou feather)
+- Responsivo para desktop, tablet e mobile
+
+---
+
+### 🧠 Funcionalidades (MVP)
+
+1. **Tela Inicial (Landing Page)**
+   - Headline clara: “Gere suas faturas e propostas em segundos”
+   - Benefícios em lista: rapidez, profissionalismo, personalização
+   - CTA: “Comece grátis”
+   - Seções: Como funciona, Planos, Depoimentos, FAQ
+
+2. **Cadastro/Login**
+   - Login via email e senha
+   - Opção “Criar Conta”
+   - Lembrar senha
+
+3. **Dashboard**
+   - Sidebar com abas: "Documentos", "Meus Dados", "Assinatura"
+   - Área principal: lista de documentos criados, botão “+ Novo Documento”
+
+4. **Criador de Documento**
+   - Formulário com:
+     - Tipo (Proposta / Fatura / Recibo)
+     - Dados do cliente (nome, e-mail, empresa)
+     - Serviços / Produtos (descrição, quantidade, valor)
+     - Condições de pagamento
+     - Observações finais
+   - Geração automática de PDF
+   - Layout bonito, pronto para envio
+
+5. **Assinatura eletrônica simples**
+   - Campo para assinatura digital (digitada ou upload)
+
+---
+
+### 💰 Monetização
+
+- Plano Gratuito:
+  - Até 3 documentos por mês
+  - Marca d’água no PDF
+- Plano Pro (R$37/mês):
+  - Documentos ilimitados
+  - Sem marca d’água
+  - Assinatura digital liberada
+  - PDF white-label
+- Após login, mostrar banner de upgrade ao atingir o limite
+
+---
+
+### 🔧 Tecnologias sugeridas
+
+- Front-end: React + Tailwind CSS
+- Back-end: Node.js + Express (ou Firebase)
+- Banco de dados: MongoDB ou Firebase Firestore
+- Autenticação: Firebase Auth ou Auth0
+- PDF: jsPDF ou PDFMake
+- Hospedagem: Vercel ou Netlify (front) + Render (back)
+
+---
+
+### 📎 Extras
+
+- Envio automático do PDF por e-mail (com SendGrid ou SMTP)
+- Área “Meus Dados” com logo, CNPJ, endereço (usado nos documentos)
+- URL pública opcional para cada documento (ex: `faturafacil.com/doc/XYZ123`)
+
+---
+
+Nome do projeto: **FaturaFácil**  
+Slogan: **“Profissionalize suas propostas e faturas em segundos”**  
+Objetivo: Criar um Mini SaaS leve, com design limpo, e monetização por assinatura.  
+Público: freelancers, prestadores de serviço, microempreendedores.
